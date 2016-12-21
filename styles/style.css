@@ -1,0 +1,166 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#logo-image {
+  height: 45px;
+  width: 30px;
+  float: left;
+  background-size: contain;
+  margin: 0px;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
+#logo-name {
+  font-size: 30px;
+}
+
+.Featured {
+  margin-top: 50px;
+  clear:both;
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+.Site-content {
+  position: relative;
+}
+
+.featureImage {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+h2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+
+h2 span {
+   color: white;
+   font-size: 3vw;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 5px;
+   margin: 20%;
+}
+
+a img {
+  height: auto;
+  width: 50%;
+  margin-left: 25%;
+  size: cover;
+}
+
+/*.sectionTitle {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: Helvetica;
+}*/
+
+.my-container {
+  position: relative;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.my-container div {
+  position: relative;
+  margin-top: 15%;
+  margin-left: 5%;
+  width: 110px;
+  height: 110px;
+  background-image: url('../assets/aboutUs-icon.png');
+  background-size: contain;
+}
+
+.my-container blockquote {
+  /*margin-left: 43%;*/
+  margin: 2vw;
+  padding: 2vw;
+  position: relative;
+  z-index: 2;
+  font-size: 1.5vw;
+  color: #734E2B;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+blockquote:before {
+    content: open-quote;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 3vw;
+    color: #96000A;
+    /*background: #ddd;*/
+    float: left;
+    position: relative;
+    border-radius: 25px;
+    margin-right: 0.5em;
+    vertical-align: -0.4em;
+
+    /** define it as a block element **/
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+blockquote:after {
+    content: close-quote;
+    font-size: 3vw;
+    text-align: right;
+    line-height: 3vw;
+    color: #96000A;
+    /*background: #ddd;*/
+    float: right;
+    position: relative;
+    border-radius: 25px;
+    margin-right: 1em;
+    vertical-align: -0.5em;
+
+    /** define it as a block element **/
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+
+}
+
+.social-media-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  size: contain;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #020202;
+  text-align: center;
+  color: #e3e1e4;
+}
