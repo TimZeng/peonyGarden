@@ -47,22 +47,22 @@ export default Home = () => (
         <a>
           <center className='featureImage'>
             <img role="presentation" src="../../assets/products/product1.png"/>
-            <h2><span>product 1</span></h2>
           </center>
+          <h2><span>product 1</span></h2>
         </a>
 
         <a>
           <center className='featureImage'>
             <img role="presentation" src="../../assets/products/product2.png"/>
-            <h2><span>product 2</span></h2>
           </center>
+          <h2><span>product 2</span></h2>
         </a>
 
         <a>
           <center className='featureImage'>
             <img role="presentation" src="../../assets/products/product3.png"/>
-            <h2><span>product 3</span></h2>
           </center>
+          <h2><span>product 3</span></h2>
         </a>
       </Carousel>
     </div>
