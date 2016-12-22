@@ -29,5 +29,8 @@
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.1",
     "react-router": "^3.0.0"
+  },
+  "engines": {
+    "node": "7.0.0"
   }
 }
