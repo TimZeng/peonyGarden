@@ -6,7 +6,7 @@ html {
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -27,8 +27,8 @@ body {
 
 .Featured {
   margin-top: 50px;
-  clear:both;
-  height: auto;
+  clear: both;
+  height: 80vh;
   width: 100%;
   background-color: black;
 }
@@ -60,10 +60,10 @@ h2 span {
 }
 
 a img {
-  height: auto;
-  width: 50%;
-  margin-left: 25%;
-  size: cover;
+  height: 80vh;
+  width: auto;
+  margin-left: auto;
+  size: contain;
 }
 
 /*.sectionTitle {
