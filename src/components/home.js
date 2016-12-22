@@ -45,24 +45,24 @@ export default Home = () => (
     <div className='Site-content Featured'>
       <Carousel autoplay={ true } wrapAround={ true } speed={ 1500 } decorators={Decorators} className='picSlider'>
         <a>
-          <div className='featureImage'>
+          <center className='featureImage'>
             <img role="presentation" src="../../assets/products/product1.png"/>
             <h2><span>product 1</span></h2>
-          </div>
+          </center>
         </a>
 
         <a>
-          <div className='featureImage'>
+          <center className='featureImage'>
             <img role="presentation" src="../../assets/products/product2.png"/>
             <h2><span>product 2</span></h2>
-          </div>
+          </center>
         </a>
 
         <a>
-          <div className='featureImage'>
+          <center className='featureImage'>
             <img role="presentation" src="../../assets/products/product3.png"/>
             <h2><span>product 3</span></h2>
-          </div>
+          </center>
         </a>
       </Carousel>
     </div>
