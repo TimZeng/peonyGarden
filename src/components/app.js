@@ -43,7 +43,7 @@ export default class App extends Component {
                 <img className='social-media-icon' src='../../assets/facebook-icon.png' />
               </a>
               <a href="https://www.instagram.com/peonygardenceramics">
-                <img className='social-media-icon' src='../../assets/instagram-icon.png' />
+                <img className='social-media-icon' src='../../assets/instagram.png' />
               </a>
             </span>
           </div>
