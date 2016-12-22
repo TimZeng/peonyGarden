@@ -70,7 +70,6 @@ export default Home = () => (
     <div className='my-container'>
       <blockquote className='col-md-7'>Peony Garden Inc. is a new company based in San Francisco that aims to introduce and bring elegant and absolutely high quality porcelains to Americans. Our factory back in China had spent about 20 years on studying the special Lu Ceramics, which has been awarded as National Intangible Cultural Heritage. Our philosophy is to make creative, modern porcelains with health and environment concerns.
       We believe we could show a different feeling of China with our consummate craft and the efforts of our brilliant designers.</blockquote>
-      <div className='col-md-5'></div>
 
       <img src='../../assets/aboutUs1.png' />
     </div>

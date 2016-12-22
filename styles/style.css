@@ -78,16 +78,6 @@ a img {
   margin-top: 5px;
 }
 
-.my-container div {
-  position: relative;
-  margin-top: 15%;
-  margin-left: 5%;
-  width: 110px;
-  height: 110px;
-  background-image: url('../assets/aboutUs-icon.png');
-  background-size: contain;
-}
-
 .my-container blockquote {
   /*margin-left: 43%;*/
   margin: 2vw;
@@ -163,4 +153,8 @@ blockquote:after {
   background-color: #020202;
   text-align: center;
   color: #e3e1e4;
+}
+
+#footerText {
+  margin-left: 5vw;
 }

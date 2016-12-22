@@ -37,12 +37,12 @@ export default class App extends Component {
 
         <div className="footer">
           <div className="col-xs-12 text-center">
-                <strong>© 2016 Peony Garden, Inc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>Follow Us:
+            <strong>© 2016 Peony Garden, Inc.</strong><span id='footerText'>Follow Us</span>:
             <span className="text-right">
-              <a href="https://www.facebook.com/peonygarden.inc">
+              <a href="https://www.facebook.com/peonygarden.inc" target="_blank">
                 <img className='social-media-icon' src='../../assets/facebook-icon.png' />
               </a>
-              <a href="https://www.instagram.com/peonygardenceramics">
+              <a href="https://www.instagram.com/peonygardenceramics" target="_blank">
                 <img className='social-media-icon' src='../../assets/instagram.png' />
               </a>
             </span>
