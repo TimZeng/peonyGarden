@@ -6,7 +6,7 @@ html {
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -25,21 +25,28 @@ body {
   font-size: 30px;
 }
 
+.Site-content {
+  position: relative;
+}
+
 .Featured {
   margin-top: 50px;
   clear: both;
-  height: 80vh;
+  height: auto;
   width: 100%;
   background-color: black;
-}
-
-.Site-content {
-  position: relative;
 }
 
 .featureImage {
   position: relative;
   width: 100%; /* for IE 6 */
+}
+
+a img {
+  height: auto;
+  width: 60%;
+  margin-left: 20%;
+  size: contain;
 }
 
 h2 {
@@ -59,12 +66,6 @@ h2 span {
    margin: 20%;
 }
 
-a img {
-  height: 80vh;
-  width: auto;
-  margin-left: auto;
-  size: contain;
-}
 
 /*.sectionTitle {
   font-size: 40px;
@@ -84,7 +85,7 @@ a img {
   padding: 2vw;
   position: relative;
   z-index: 2;
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: #734E2B;
   font-weight: 200;
   background-color: rgba(255, 255, 255, 0.5);
