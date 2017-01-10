@@ -144,6 +144,20 @@ blockquote:after {
   size: contain;
 }
 
+.profileIcon {
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+}
+
+.profilePhone {
+  content: url('../assets/phone.png');
+}
+
+.profileEmail {
+  content: url('../assets/email.png');
+}
+
 .footer {
   position: absolute;
   right: 0;
